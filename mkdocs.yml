@@ -4,6 +4,7 @@ site_url: https://782392c8-a276-48e2-b12d-a740e1fcb34b-00-2a149ufs0xftd.worf.rep
 theme:
   # name: material
   name: torillic
+  custom_dir: docs/overrides
 
 nav:
 - ...
@@ -12,3 +13,6 @@ plugins:
 # awesome-pages works well Torillic's contents pages as it allows an automatic nav to be generated from file structure
 - awesome-pages
 - search
+
+extra_css:
+  - overrides/search.css

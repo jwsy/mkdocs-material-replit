@@ -1,0 +1,11 @@
+.search-container {
+  margin-top: 1rem;
+}
+#mkdocs-search-results {
+  background: white;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ddd;
+  max-height: 300px;
+  overflow-y: auto;
+}
